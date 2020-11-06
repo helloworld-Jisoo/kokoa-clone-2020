@@ -1,3 +1,3 @@
 # Kokoa Clone 2020 Update
 
-Hello world!
+This is my first GitHub!
