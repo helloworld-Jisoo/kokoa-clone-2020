@@ -7,13 +7,6 @@
   align-items: center;
 }
 
-.user-component__avartar {
-  width: 70px;
-  height: 70px;
-  border-radius: 27px;
-  margin-right: 20px;
-}
-
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
@@ -24,7 +17,12 @@
   color: var(--grey);
   font-size: 17px;
 }
-
+.user-component__avartar {
+  width: 70px;
+  height: 70px;
+  border-radius: 27px;
+  margin: 0px 20px;
+}
 .user-component__avartar--xl {
   width: 80px;
   height: 80px;
