@@ -7,14 +7,23 @@
 }
 
 .alt-hetter__title {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
 }
-
+.alt-heather__column {
+  width: 33%;
+}
 .alt-heather__column:first-child {
   margin-right: auto;
 }
-
+.alt-heather__column:nth-child(2) {
+  text-align: center;
+}
 .alt-heather__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-heather__column span:last-child {
+  margin-left: 20px;
 }
