@@ -14,3 +14,15 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+@keyframes ratateCog {
+  from {
+    transform: 0;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header .fa-cog:hover {
+  animation: ratateCog 1s linear infinite;
+}
